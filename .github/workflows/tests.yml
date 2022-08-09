@@ -1,0 +1,12 @@
+name: Tests
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  awesomeness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: npx awesome-lint
