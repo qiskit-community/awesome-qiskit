@@ -22,15 +22,11 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [Main](#main) - The main Qiskit packages maintained by IBM Quantum
 * [Community](#community) - Software packages supported by the Qiskit community, not maintained by IBM Quantum
-* [Prototypes](#prototypes) - Software packages supporting cutting-edge research on quantum algorithms and applications
-* [Partners](#partners) - A select group of providers and vendors that are verified for Qiskit compatibility and validity
-* [Extension](#extension) - IBM Quantum supported Qiskit extensions
+* [Extensions](#extensions) - IBM Quantum supported Qiskit extensions
 
 
 ## Main
 
-
-* [qiskit-terra](https://github.com/Qiskit/qiskit-terra) - Terra is the foundation on which the rest of qiskit is built.
 
 * [qiskit-aer](https://github.com/Qiskit/qiskit-aer) - Aer provides high-performance quantum computing simulators with realistic noise models.
 
@@ -44,7 +40,11 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [qiskit-finance](https://github.com/Qiskit/qiskit-finance) - Qiskit finance is an open-source framework that contains uncertainty components for stock/securities problems, ising translators for portfolio optimizations and data providers to source real or random data to finance experiments.
 
+* [qiskit-experiments](https://github.com/Qiskit/qiskit-experiments) - Qiskit experiments is an open-source project for running characterizing, calibrating, and benchmarking experiments in qiskit.
+
 * [qiskit-dynamics](https://github.com/Qiskit/qiskit-dynamics) - Qiskit dynamics is an open-source project for building, transforming, and solving time-dependent quantum systems in qiskit.
+
+* [OpenQASM](https://github.com/openqasm/openqasm) - Openqasm is an imperative programming language designed for near-term quantum computing algorithms and applications. quantum programs are described using the measurement-based quantum circuit model with support for classical feed-forward flow control based on measurement outcomes.
 
 
 ## Community
@@ -60,7 +60,7 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [kaleidoscope](https://github.com/QuSTaR/kaleidoscope) - Kaleidoscope.
 
-* [pytket-extensions](https://github.com/CQCL/pytket-extensions) - Repository contains a collection of python extension modules for cqc's pytket quantum sdk.
+* [pytket-qiskit](https://github.com/CQCL/pytket-extensions/tree/develop/modules/pytket-qiskit) - An extension to pytket (a python module for interfacing with cqc tket) that allows pytket circuits to be run on ibm backends and simulators, as well as conversion to and from qiskit representations.
 
 * [quantuminspire](https://github.com/QuTech-Delft/quantuminspire) - Platform allows to execute quantum algorithms using the cqasm language.
 
@@ -82,19 +82,21 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [QPong](https://github.com/HuangJunye/QPong) - A quantum version of the classic game pong built with qiskit and pygame.
 
+* [q-kernel-ops](https://github.com/Travis-S-IBM/q-kernel-ops) - Code base on the paper kernel matrix completion for offline quantum-enhanced machine learning [2112.08449](https://arxiv.org/abs/2112.08449).
 
-## Prototypes
 
+## Extensions
+
+
+* [qiskit-alt](https://github.com/Qiskit-Extensions/qiskit-alt) - Python package uses a backend written in julia to implement high performance features for standard qiskit.
+
+* [qiskit-cold-atom](https://github.com/Qiskit-Extensions/qiskit-cold-atom) - This project builds on this functionality to describe programmable quantum simulators of trapped cold atoms in a gate- and circuit-based framework.
 
 * [Entanglement forging](https://github.com/qiskit-community/prototype-entanglement-forging) - This module allows a user to simulate chemical and physical systems using a variational quantum eigensolver (vqe) enhanced by entanglement forging. entanglement forging doubles the size of the system that can be exactly simulated on a fixed set of quantum bits.
 
 * [Quantum kernel training](https://github.com/qiskit-community/prototype-quantum-kernel-training) - The quantum kernel training (qkt) toolkit is designed to enable users to leverage quantum kernels for machine learning tasks; in particular, researchers who are interested in investigating quantum kernel training algorithms in their own research, as well as practitioners looking to explore and apply these algorithms to their machine learning applications.
 
 * [Quantum Random Access Optimization](https://github.com/qiskit-community/prototype-qrao) - The quantum random access optimization (qrao) module is designed to enable users to leverage a new quantum method for combinatorial optimization problems.
-
-
-## Partners
-
 
 * [qiskit-ibm-runtime](https://github.com/qiskit/qiskit-ibm-runtime) - This module provides the interface to access qiskit runtime.
 
@@ -104,12 +106,8 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [mthree](https://github.com/Qiskit-Partners/mthree) - Matrix-free measurement mitigation (m3).
 
+* [qiskit-research](https://github.com/qiskit-research/qiskit-research) - This project contains modules for running quantum computing research experiments using qiskit and the ibm quantum services, demonstrating by example best practices for running such experiments.
 
-## Extension
-
-
-* [qiskit-alt](https://github.com/Qiskit-Extensions/qiskit-alt) - Python package uses a backend written in julia to implement high performance features for standard qiskit.
-
-* [qiskit-cold-atom](https://github.com/Qiskit-Extensions/qiskit-cold-atom) - This project builds on this functionality to describe programmable quantum simulators of trapped cold atoms in a gate- and circuit-based framework.
+* [qiskit-qec](https://github.com/qiskit-community/qiskit-qec) - Qiskit framework for quantum error correction is an open-source framework for developers, experimentalist and theorists of quantum error correction (qec).
 
 
