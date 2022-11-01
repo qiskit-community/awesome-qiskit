@@ -32,8 +32,6 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [qiskit-optimization](https://github.com/Qiskit/qiskit-optimization) - Qiskit optimization is an open-source framework that covers the whole range from high-level modeling of optimization problems, with automatic conversion of problems to different required representations, to a suite of easy-to-use quantum optimization algorithms that are ready to run on classical simulators, as well as on real quantum devices via qiskit.
 
-* [qiskit-metal](https://github.com/Qiskit/qiskit-metal) - Qiskit metal is an open-source framework for engineers and scientists to design superconducting quantum devices with ease.
-
 * [qiskit-machine-learning](https://github.com/Qiskit/qiskit-machine-learning) - The machine learning package contains sample datasets and quantum ml algorithms.
 
 * [qiskit-nature](https://github.com/Qiskit/qiskit-nature) - Qiskit nature allows researchers and developers in different areas of natural sciences (including physics, chemistry, material science and biology) to model and solve domain-specific problems using quantum simulations.
@@ -84,6 +82,14 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [q-kernel-ops](https://github.com/Travis-S-IBM/q-kernel-ops) - Code base on the paper kernel matrix completion for offline quantum-enhanced machine learning [2112.08449](https://arxiv.org/abs/2112.08449).
 
+* [QuantumCircuits.jl](https://github.com/Adgnitio/QuantumCircuits.jl) - Quantumcircuits is an open-source library written in julia for working with quantum computers at the application level, especially for quantum finance and quantum machine learning. it allows to creation and manipulation of the quantum circuits and executes them in julia or convert them to qiskit python object. the library also contains the quantum binomial tree implementation for derivative pricing.
+
+* [qiskit-toqm](https://github.com/qiskit-toqm/qiskit-toqm) - Qiskit transpiler routing method using the time-optimal qubit mapping (toqm) algorithm, described in https://doi.org/10.1145/3445814.3446706.
+
+* [bosonic-qiskit](https://github.com/C2QA/bosonic-qiskit) - Nqi c2qa project to simulate hybrid boson-qubit systems within qiskit.
+
+* [dsm-swap](https://github.com/qiskit-community/dsm-swap) - A doubly stochastic matrices-based approach to optimal qubit routing.
+
 
 ## Extensions
 
@@ -109,5 +115,7 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 * [qiskit-research](https://github.com/qiskit-research/qiskit-research) - This project contains modules for running quantum computing research experiments using qiskit and the ibm quantum services, demonstrating by example best practices for running such experiments.
 
 * [qiskit-qec](https://github.com/qiskit-community/qiskit-qec) - Qiskit framework for quantum error correction is an open-source framework for developers, experimentalist and theorists of quantum error correction (qec).
+
+* [qiskit-metal](https://github.com/Qiskit/qiskit-metal) - Qiskit metal is an open-source framework for engineers and scientists to design superconducting quantum devices with ease.
 
 
