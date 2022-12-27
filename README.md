@@ -30,7 +30,7 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [qiskit-aer](https://github.com/Qiskit/qiskit-aer) - Aer provides high-performance quantum computing simulators with realistic noise models.
 
-* [qiskit-optimization](https://github.com/Qiskit/qiskit-optimization) - Qiskit optimization is an open-source framework that covers the whole range from high-level modeling of optimization problems, with automatic conversion of problems to different required representations, to a suite of easy-to-use quantum optimization algorithms that are ready to run on classical simulators, as well as on real quantum devices via qiskit.
+* [qiskit-optimization](https://github.com/Qiskit/qiskit-optimization) - Framework that covers the whole range from high-level modeling of optimization problems, with automatic conversion of problems to different required representations, to a suite of easy-to-use quantum optimization algorithms that are ready to run on classical simulators, as well as on real quantum devices via qiskit.
 
 * [qiskit-machine-learning](https://github.com/Qiskit/qiskit-machine-learning) - The machine learning package contains sample datasets and quantum ml algorithms.
 
@@ -40,7 +40,7 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [qiskit-experiments](https://github.com/Qiskit/qiskit-experiments) - Qiskit experiments is an open-source project for running characterizing, calibrating, and benchmarking experiments in qiskit.
 
-* [qiskit-dynamics](https://github.com/Qiskit/qiskit-dynamics) - Qiskit dynamics is an open-source project for building, transforming, and solving time-dependent quantum systems in qiskit.
+* [qiskit-dynamics](https://github.com/Qiskit/qiskit-dynamics) - Dynamics is an open-source project for building, transforming, and solving time-dependent quantum systems in qiskit.
 
 * [OpenQASM](https://github.com/openqasm/openqasm) - Openqasm is an imperative programming language designed for near-term quantum computing algorithms and applications. quantum programs are described using the measurement-based quantum circuit model with support for classical feed-forward flow control based on measurement outcomes.
 
@@ -74,7 +74,7 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [qiskit-rigetti](https://github.com/rigetti/qiskit-rigetti) - Rigetti provider for qiskit.
 
-* [QiskitBot](https://github.com/infiniteregrets/QiskitBot) - A discord bot that allows you to execute quantum circuits, look up the ibmq qiskit's documentation, and search questions on the quantum computing stackexchange.
+* [QiskitBot](https://github.com/infiniteregrets/QiskitBot) - A discord bot that allows you to execute quantum circuits, look up the qiskit's documentation, and search questions on the quantum computing stackexchange.
 
 * [pytorch-quantum](https://github.com/mit-han-lab/pytorch-quantum) - A pytorch-centric hybrid classical-quantum dynamic neural networks framework.
 
@@ -89,6 +89,16 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 * [bosonic-qiskit](https://github.com/C2QA/bosonic-qiskit) - Nqi c2qa project to simulate hybrid boson-qubit systems within qiskit.
 
 * [dsm-swap](https://github.com/qiskit-community/dsm-swap) - A doubly stochastic matrices-based approach to optimal qubit routing.
+
+* [circuit-knitting-toolbox](https://github.com/Qiskit-Extensions/circuit-knitting-toolbox) - Circuit knitting is the process of decomposing a quantum circuit into smaller circuits, executing those smaller circuits on a quantum processor(s), and then knitting their results into a reconstruction of the original circuit's outcome. circuit knitting includes techniques such as entanglement forging, circuit cutting, and classical embedding. the circuit knitting toolbox (ckt) is a collection of such tools.
+
+* [quantum-serverless](https://github.com/Qiskit-Extensions/quantum-serverless) - The quantum serverless package aims to allow developers to easily offload computations to cloud resources, without being experts in packaging code for remote execution environments.
+
+* [zoose-codespace](https://github.com/ianhellstrom/zoose-codespace) - Github codespace template repository based on zoose quantum, a custom docker image with everything included, so you can be up and running with any of the major quantum libraries (incl. qiskit) with only two clicks! no installation required. ideal for beginners or people who want to code quantum circuits on the go. code quantum circuits straight in your browser with vscode.
+
+* [Qiskit Nature PySCF](https://github.com/qiskit-community/qiskit-nature-pyscf) - Qiskit nature pyscf is a third-party integration plugin of qiskit nature and pyscf.
+
+* [RasQberry](https://github.com/JanLahmann/RasQberry) - Rasqberry is a functional model of ibm quantum system one, and can run qiskit on the integrated raspberry pi.
 
 
 ## Extensions
@@ -114,7 +124,7 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [qiskit-research](https://github.com/qiskit-research/qiskit-research) - This project contains modules for running quantum computing research experiments using qiskit and the ibm quantum services, demonstrating by example best practices for running such experiments.
 
-* [qiskit-qec](https://github.com/qiskit-community/qiskit-qec) - Qiskit framework for quantum error correction is an open-source framework for developers, experimentalist and theorists of quantum error correction (qec).
+* [qiskit-qec](https://github.com/qiskit-community/qiskit-qec) - Framework for quantum error correction is an open-source framework for developers, experimentalist and theorists of quantum error correction (qec).
 
 * [qiskit-metal](https://github.com/Qiskit/qiskit-metal) - Qiskit metal is an open-source framework for engineers and scientists to design superconducting quantum devices with ease.
 
