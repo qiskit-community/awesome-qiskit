@@ -100,6 +100,8 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 
 * [RasQberry](https://github.com/JanLahmann/RasQberry) - Rasqberry is a functional model of ibm quantum system one, and can run qiskit on the integrated raspberry pi.
 
+* [QiskitOpt.jl](https://github.com/psrenergy/QiskitOpt.jl) - Qiskitopt.jl is a julia package that exports a jump wrapper for qiskit-optimization.
+
 
 ## Extensions
 
@@ -127,3 +129,5 @@ This repository is an awesome list of projects, tools, utilities, libraries and 
 * [qiskit-qec](https://github.com/qiskit-community/qiskit-qec) - Framework for quantum error correction is an open-source framework for developers, experimentalist and theorists of quantum error correction (qec).
 
 * [qiskit-metal](https://github.com/Qiskit/qiskit-metal) - Qiskit metal is an open-source framework for engineers and scientists to design superconducting quantum devices with ease.
+
+
