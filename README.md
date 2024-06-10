@@ -2,6 +2,8 @@
 
 # Awesome Qiskit [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![ecosystem](https://img.shields.io/badge/Qiskit-Ecosystem-blueviolet) 
 
+**This repository is no longer maintained. For an up-to-date list of projects that use Qiskit, visit the [Qiskit ecosystem](https://qiskit.github.io/ecosystem/).**
+
 <!--lint enable double-link-->
 
 <br />
